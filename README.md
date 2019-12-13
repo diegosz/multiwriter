@@ -15,6 +15,5 @@ func main() {
     defer mw.Stop()
     body := bytes.NewReader([]byte("My test string"))
     mw.Write("./test.txt", body)
-
 }
 ```
